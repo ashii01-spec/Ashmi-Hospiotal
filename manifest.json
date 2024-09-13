@@ -1,0 +1,22 @@
+{
+    "name": "Ashmi Hospital",
+    "short_name": "Ashmi",
+    "description": "A comprehensive website for Ashmi Hospital, providing information about services, doctors, and patient care.",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "theme_color": "#109685",
+    "icons": [
+      {
+        "src": "/images/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  

@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css?family=DynaPuff|Roboto|Anuphan|Tapestry|Abril+Fatface|Oswald|Bruno+Ace+SC');
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+  }
+  
+
+  
+  /* Header Styles */
+  
+  .header{
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.16),rgba(10, 10, 10, 0.315)),url(../img/home_body_img.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+  }.content{
+    float: right;
+    width: 60%;
+    margin-top: 5%;
+    text-align: center;
+    color: #f6f6f6;
+    padding-right: 80px;
+  }nav{
+    width: 12opx;
+    margin: auto;
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }nav img{
+    width: 110px;
+    margin-right: 20px;
+    float: left;
+  }.navbar{
+    flex: 1;
+    text-align: right;
+  }.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    float: right;
+    margin: 10 12px;
+    position: relative;
+  }.navbar ul li a{
+    text-decoration: none;
+    color: #fdfdfd;
+    font-size: 24px;
+    padding: 8px;
+    font-family: Tahoma;
+    font-weight: 700px;
+  }.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #260991;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+  }.navbar #li{
+    padding: 8px;
+  }.navbar #li:hover{
+    background:linear-gradient(to top, rgba(0, 0, 0, 0.2),rgb(0, 0, 0),rgb(8, 8, 8, .2));
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    transition: 1s;
+    color: rgb(255, 255, 255);
+    transition: .5s;  
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+.content #btn
+{
+  text-align: center;
+}.content h1{
+  font-size: 70px;
+  margin-top: 8%;
+}.contact h1{
+  font-size: 40px;
+  font-family: 'Trebuchet MS';
+}.content #btn a{
+  font-size: 24px;
+  font-family: tahoma;
+}.hero-btn{
+  display: inline-block;
+  text-decoration: none;
+  color: #faf5f5;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 24px;
+  border-radius: 30px;
+  position: relative;
+  background: transparent;
+  cursor: pointer;
+}.hero-btn:hover{
+  border: 1px solid #260991;
+  background: #260991;
+  transition: 0.5s;
+}p{
+  color: rgb(10, 9, 9);
+  font-size: 18px;
+  font-weight: 300;
+  text-align: justify;
+  line-height: 22px;
+  padding: 10px;
+}h3{
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}.row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+  /* <!-- -------------------------------------------------------------------------------------------------------------------------------------- --> */
+
+.services{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}.services-col{
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+}.services-col img{
+  width: 100%;
+  border-radius: 10px;
+}.services-col p{
+  padding: 0%;
+  cursor: pointer;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+}.services-col h3{
+  margin-top: 16px;
+  text-align: left;
+  font-size: 26px;
+  text-decoration: none;
+  font-family: 'Trebuchet MS';
+}.services ul li{
+  color: #060707;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px;
+  cursor: pointer;
+}.services ul{
+  padding: 4%;
+}.services h2{
+  font-size: 40px;
+  font-family: tahoma;
+}.services #btn{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* <!-- -------------------------------------------------------------------------------------------------------------------------------------- --> */
+
+.blue-btn{
+  display: inline-block;
+  text-decoration: none;
+  color: #faf5f5;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  border-radius: 30px;
+  position: relative;
+  background: transparent;
+  cursor: pointer;
+}.blue-btn:hover{
+  border: 1px solid #260991;
+  background: #260991;
+  transition: 0.5s;
+}
+/* <!-- -------------------------------------------------------------------------------------------------------------------------------------- --> */
+
+.hospital{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 5px;
+  font-size: 20px;
+}.hospital-col{
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}.hospital-col img{
+  width: 100%;
+  display: block;
+}.hospital{
+  width: 80%;
+  font-family: tahoma;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 5px;
+  font-size: 20px;
+}.hospital-col{
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}.hospital-col img{
+  width: 100%;
+  display: block;
+}.hospital h1{
+  font-size: 40px;
+  font-family: tahoma
+}.hospital p{
+  padding-top: 2%;
+  font-size: 18px;
+}
+
+/* <!-- -------------------------------------------------------------------------------------------------------------------------------------- --> */
+
+.layer{
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transition: 0.5s;
+}.layer:hover{
+  background: rgba(3, 60, 245, 0.7);
+  cursor: pointer;
+}.layer h3{
+  width: 100%;
+  font-weight: 500;
+  color: #fff;
+  font-size: 18px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+}.layer:hover h3{
+  bottom: 49%;
+  opacity: 1;
+}.adr{
+  width: 100%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}.adr-col{
+  flex-basis: 48%;
+  padding: 30px 2px;
+  text-align: left; 
+}.adr-col ol{
+  padding: 5%;
+  padding-left: 30%;
+  padding-right: 30%;
+}.adr-col img{
+  width: 100%;
+  border-radius: 20px;
+  text-align: center;
+}.adr-col h1{
+  padding-top: 0;
+}.adr-col p{
+  padding: 15px 0 2px;
+  border-radius: 10px;
+  margin-bottom: 5%;
+}.adr ol li{
+  color: #060707;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 10px;
+  cursor: pointer;
+}.adr .hero-btn:hover{
+  text-align: center;
+}
+
+
+/* <!-- -----------------------------------------------------------------------FOOOTER--------------------------------------------------------------- --> */
+    
+.footer{
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}.footer:h4{
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+}.footer p{
+  text-align: center;
+}.icons .fa{
+  color: #009688;
+  margin: 0 13px;
+  cursor: pointer;
+  padding: 18px 0;
+}
+
+/* <!-- -------------------------------------------------------------------------------------------------------------------------------------- --> */
+
+.icons img{
+  padding: 4%;
+  width: 60px;
+}
+
+@keyframes zoomInOut {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.2);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+
+.animate-zoom {
+  animation: zoomInOut 2s infinite;
+}
+
+/* Add delay for each image */
+.icons li:nth-child(1) .animate-zoom {
+  animation-delay: 0s;
+}.icons li:nth-child(2) .animate-zoom {
+  animation-delay: 0.5s;
+}.icons li:nth-child(3) .animate-zoom {
+  animation-delay: 1s;
+}.icons li:nth-child(4) .animate-zoom {
+  animation-delay: 1.5s;
+}
+
+
+/* RESPONSIVE SCREEN COD */
+@media only screen and (max-width: 900px) {
+  .header {
+    min-height: 50vh;
+    background-size: cover;
+  }.content {
+    float: none;
+    width: 90%;
+    margin: 20px auto;
+    padding-right: 0;
+  }.content h1 {
+    font-size: 36px;
+    margin-top: 20px;
+  }.navbar ul li {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+  }.services-col {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }.hospital-col {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }.adr-col {
+    flex-basis: 100%;
+    padding: 20px;
+  }.hero-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+  }.row{
+    flex-direction: column;
+  }nav{
+    flex-direction: column;
+  }.navbar ul{
+    display: flex;
+    flex-direction: column;
+  }.content{
+    padding-bottom: 5%;
+  }
+}
+
+
+
