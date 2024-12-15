@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/style_sheet_3.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">    
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Payment</title>
+</head>
+<body id="payment_body">
+
+    <!-- Navigation Section -->
+    <header>
+        <Section>
+            <div id="mainheading">
+                <header class="mainheader">
+                    <div id="nav">
+                        <nav class="nav">
+                            <ul>
+                                <img id="nav_logo" src="./img/Logo.png" alt="">
+                                <li><a id="li" href="./index.html">HOME</a></li>
+                                <li><a id="li" href="./pharmacy.html"><font color="aqua"><u>Pharmacy</u></font></a></li>
+                                <li><a id="li" href="./contacts.html">Contacts</a></li>   
+                            </ul>    
+                        </nav>
+                    </div>        
+                </header>
+            </div>
+         </Section>
+    </header>
+
+    <!-- -------------------------------------------------------------------------------------------------------------------------------------- -->
+    <div class="form-container">
+
+        <div class="flexbox">
+
+            <div class="table">
+                <table id="cart" border="2">
+                    <thead>
+                        <tr>
+                            <th>Medicine</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>    
+        
+                    <tbody id="Cart">
+                        <tr id="cart_item">
+                        </tr>
+                    </tbody>
+        
+                    <tfoot >
+                        <tr>
+                            <td colspan="2">Total</td>
+                            <td id="total_price"></td>
+                        </tr>                    
+                    </tfoot>            
+                
+                </table>
+
+                <br>
+                <h1 id="date"></h1>
+                
+                <h1></h1>
+            </div>
+            
+    
+            <form method="get" id="form" class="pay">
+                <section class="pay_form">
+    
+                    <p id="f_name">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname" required placeholder="Full Name" autocomplete="username">
+                        <br>
+                    </p>
+                    <p id="phone">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phoneNumber" name="phoneNumber" required placeholder="Phone Number">
+                        <br>
+                    </p>
+                    <p id="nic">
+                        <label for="NIC">NIC</label>
+                        <input type="text" id="NIC" name="NIC" required autocomplete="">
+                        <br>
+                    </p>
+                    <p id="email">
+                        <label for="email">Email</label>
+                        <input type="email"  name="email" required placeholder="Email" autocomplete="email">
+                        <br>
+                    </p>
+                    <p id="address">
+                        <label for="address">Address</label>
+                        <input type="text" id="address" name="address" required placeholder="Address" autocomplete="address-line1">
+                        <br>
+                    </p>
+                    <p id="age">
+                        <div>
+                            <label for="age">Age</label>
+                            <input type="number" name="CVV" id="CVV"  min="18" max="999" minlength="2" maxlength="3" required placeholder="00">
+                            <br>
+                        </div>                        
+                    </p>
+    
+                    <hr><br>
+    
+                    <p id="card_number">
+                        <label for="crdnum">Card Number</label>
+                        <input type="text" id="cardNumber" name="cardNumber" maxlength="19" minlength="" placeholder="XXXX XXXX XXXX XXXX" required>
+                        <br>
+                    </p>
+                    
+        
+                    <p id="expcvv">
+                        <div class="exp">
+                            <label for="expdate">Expiry Date </label>          
+                            <input type="month" name="expdate" id="expdate" required minlength="August 2023">
+                        </div>
+                        
+                        <div class="cvv">
+                            <label for="CVV">CVV/CVC</label>
+                            <input type="text" name="CVV" id="CVV"  min="111" max="999" minlength="3" maxlength="3" required placeholder="xxx">
+                        <br>
+                        </div>                 
+                    </p>
+                             
+                    <p id="name_on_crd">
+                        <label for="crdname">Name on Card</label>
+                        <input type="text" name="crdname" id="crdname" required placeholder="eg : X .X. XXXXXXXX">
+                        <br> 
+                    </p>
+    
+                    <hr><br>
+                    
+                </section>
+                <center><a href="" id="link"><button type="submit" id="paybtn">Pay</button></a></center>            
+            </form>
+        </div>
+        
+
+    </div>
+    
+
+    <!-- FOOTER WITH NAV LINKS -->
+
+    <section class="footer">
+        <footer>
+
+            <ul class="footernav">
+                <li><img class="animate-zoom" src="./img/facebook.png" alt="" srcset=""></li>
+                <li><img class="animate-zoom" src="./img/instagram.png" alt="" srcset=""></li>
+                <li><img class="animate-zoom" src="./img/mail.png" alt="" srcset=""></li>
+                <li><img class="animate-zoom" src="./img/whatsapp.png" alt="" srcset=""></li>   
+            </ul>
+
+            <div>
+                Copyright © 2024 Ashmi Hospital. All rights reserved.
+            </div>
+        </footer>
+    </section>
+
+    <script src="./Scripts/payment.js"></script>
+</body>
+</html>
