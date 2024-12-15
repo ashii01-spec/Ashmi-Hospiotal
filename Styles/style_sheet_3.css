@@ -785,6 +785,8 @@ button{
   }#order_body .form-container .flexbox form .category5{
     grid-column-start: 1;
     grid-column-end: 2;
+  }#cart{
+    width: 100%;
   }
 
   /* Payments Page */
